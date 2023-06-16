@@ -132,7 +132,8 @@ aside > header{
 aside > ul{
     columns: 2;
     text-align: left;
-    
+}
+
 }
 footer{
     text-align: center;
