@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #89cda5;
+    display: block;
+    padding: 8px;
+  }
+
+article{
+    text-align: center;
+}
+#cabeçalho{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top,  #1a5a37, #89cda5 );
+    padding: 10px;
+    width: 100vw;
+}
+
+#cabeçalho > h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#barra_de_navegação{
+    padding-top: 10px;
+    background-color: #1a5a37;
+    width: 100%;
+    text-align: center;
+}
+
+#barra_de_navegação > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 125px ;
+    font-size: medium;
+    font-weight: 300;
+
+}
+#barra_de_navegação:hover > a{
+    background-color: white;
+    color: #1a5a37;
+}
+main{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.705);
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0;
+}
+#cabeçalho_002, #cabeçalho_003{
+    font-family: 'Android';
+    color: #1a5a37;
+
+}
+#cabeçalho_002{
+    text-align: center;
+}
+#cabeçalho_003{
+     background-image: linear-gradient(to right,#89cda5, white );
+     text-align: left;
+     padding: 5px;
+     border-radius: 5px;
+}
+
+p > a{
+    text-decoration: none;
+    color: #1a5a37;
+}
+
+#link_especial{
+    color: #1a5a37;
+    font-weight: bolder;
+}
+
+#link_especial:hover{
+    background-color: #1a5a37;
+    color: white;
+    text-decoration: underline;
+}
+
+#video_ytb{
+    background-color: #1a5a37;
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+#video_ytb > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#container_aside{
+    background-color: #89cda5;
+    border-radius: 10px 20px;
+    padding: 10px;
+
+}
+aside > header{
+    background-color: #1a5a37;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: large;
+}
+
+aside > ul{
+    columns: 2;
+    text-align: left;
+    
+}
+footer{
+    text-align: center;
+    background-color: #1a5a37;
+    color: white;
+    padding: 10px;
+}
