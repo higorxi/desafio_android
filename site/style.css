@@ -7,17 +7,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-  body{
+:root{
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
     margin: 0px;
     padding: 0px;
     background-color: #89cda5;
     display: block;
     padding: 8px;
-  }
-
-article{
-    text-align: center;
 }
+
+header{
+
+}
+
 #cabeçalho{
     text-align: center;
     color: white;
@@ -28,6 +38,10 @@ article{
 
 #cabeçalho > h1{
     font-family: 'Bebas Neue', sans-serif;
+}
+
+nav{
+
 }
 
 #barra_de_navegação{
@@ -49,6 +63,7 @@ article{
     background-color: white;
     color: #1a5a37;
 }
+
 main{
     background-color: white;
     width: 900px;
@@ -56,19 +71,27 @@ main{
     padding: 15px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.705);
 }
+
+article{
+    text-align: center;
+}
+
 p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2.0;
 }
+
 #cabeçalho_002, #cabeçalho_003{
     font-family: 'Android';
     color: #1a5a37;
 
 }
+
 #cabeçalho_002{
     text-align: center;
 }
+
 #cabeçalho_003{
      background-image: linear-gradient(to right,#89cda5, white );
      text-align: left;
@@ -132,8 +155,9 @@ aside > header{
 aside > ul{
     columns: 2;
     text-align: left;
-    
+    margin-left: 25px;
 }
+
 footer{
     text-align: center;
     background-color: #1a5a37;
